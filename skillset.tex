@@ -1,0 +1,52 @@
+\documentclass[tikz,border=10pt]{standalone}
+\usepackage{xcolor}
+
+\begin{document}
+
+\begin{tikzpicture}
+    % Define colors
+    \definecolor{centerColor}{RGB}{255,165,79}
+    \definecolor{fullstackColor}{RGB}{173,216,230}
+    \definecolor{datasciColor}{RGB}{255,255,153}
+    \definecolor{researchColor}{RGB}{186,147,255}
+    \definecolor{teflColor}{RGB}{255,153,204}
+
+    % Center node
+    \node[draw, circle, fill=centerColor, minimum size=3cm] (center) {Henri's Skills};
+
+    % Full-Stack Web Dev branch
+    \node[draw, circle, fill=fullstackColor] (fs) at (2.5,3.5) {Full-Stack Web Dev};
+    \foreach \i/\text in {1/PHP, 2/Java, 3/jQuery, 4/MERN, 5/HTML, CSS, JavaScript} {
+        \node[draw, circle, fill=fullstackColor, minimum size=1.5cm] (fs\i) at (4.5,3.5-1*\i) {\text};
+        \draw (fs) -- (fs\i);
+    }
+
+    % Data Science branch
+    \node[draw, circle, fill=datasciColor] (ds) at (3.5,-3.5) {Data Science};
+    \foreach \i/\text in {1/EDA, Data Wrangling, 2/PowerBI, Tableau, 3/Linux, BASH, 4/Git CLI, GitHub, 5/Pandas, NumPy, SciPy, 6/DataBricks, Snowflake, SQL, PySpark, 7/Python, Jupyter Notebook} {
+        \node[draw, circle, fill=datasciColor, minimum size=1.5cm] (ds\i) at (6,-3.5-1*\i) {\text};
+        \draw (ds) -- (ds\i);
+    }
+
+    % Research branch
+    \node[draw, circle, fill=researchColor] (research) at (-3.5,-3.5) {Research};
+    \foreach \i/\text in {1/LaTeX, 2/TikZ, 3/Mathematics, 4/Physics, Astrophysics, 5/LibreOffice Suite, 6/ChatGPT} {
+        \node[draw, circle, fill=researchColor, minimum size=1.5cm] (research\i) at (-6,-3.5-1*\i) {\text};
+        \draw (research) -- (research\i);
+    }
+
+    % TEFL branch
+    \node[draw, circle, fill=teflColor] (tefl) at (-2.5,3.5) {TEFL};
+    \foreach \i/\text in {1/Qualify Level 5 Diploma, 2/Teaching Business English} {
+        \node[draw, circle, fill=teflColor, minimum size=1.5cm] (tefl\i) at (-4.5,3.5-1*\i) {\text};
+        \draw (tefl) -- (tefl\i);
+    }
+
+    % Connect all branches to center
+    \draw (center) -- (fs);
+    \draw (center) -- (ds);
+    \draw (center) -- (research);
+    \draw (center) -- (tefl);
+\end{tikzpicture}
+
+\end{document}
