@@ -1,36 +1,31 @@
 \documentclass[a4paper,10pt]{article}
 \usepackage[left=2cm, right=2cm, top=2cm, bottom=2cm]{geometry}
-\usepackage{titlesec, enumitem, hyperref, graphicx}
+\usepackage{enumitem, hyperref}
 \usepackage{xcolor}
 \usepackage{fontawesome5}
 \usepackage{tabularx}
 \usepackage{ltablex}
 \usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{lmodern, titlesec}
+\usepackage{parskip}
+\usepackage{bold-extra}  % Enables bold small caps
+\usepackage{tcolorbox}
+\usepackage{ebgaramond}
 
 % Tikz Libraries
-\usetikzlibrary{mindmap,shadows,decorations.pathmorphing,decorations.pathreplacing,shadings}
+\usetikzlibrary{mindmap,shadows,shadings}
 
 % Define colors
-\definecolor{centerColor}{RGB}{255,165,79}
-\definecolor{fullstackColor}{RGB}{173,216,230}
-\definecolor{datasciColor}{RGB}{255,255,153}
-\definecolor{researchColor}{RGB}{186,147,255}
-\definecolor{teflColor}{RGB}{255,153,204}
+\definecolor{burnt}{HTML}{913b01}
 
-% Define the section style
-\titleformat{\section}[block]
-{\normalfont\scshape} % Small caps
+
+\titleformat{\section}
+{\Large\bfseries\scshape\color{burnt}}  % Bold + Small Caps + Teal
 {} % No numbering
 {0pt} % No spacing
 {} % No title prefix
-[\titlerule] % Horizontal line below
-
-% Optional: Define the subsection style if needed
-\titleformat{\subsection}[block]
-{\normalfont\bfseries} % Boldface
-{} % No numbering
-{0pt} % No spacing
-{} % No title prefix
+[\vspace{0.2cm} \titlerule] % Adds spacing & horizontal rule
 
 \keepXColumns
 
@@ -46,19 +41,46 @@
 }
 
 \begin{document}
-	
 \begin{center}
-	{\LARGE\textbf{\href{https://henribranken.github.io/MyCV/}{\faHandPointer~}Henri Branken}}\\[0.5cm]
-	\faHome~ Potchefstroom (2531) \quad
-	\faPhone~ +27 (0) 82 785 5983 \quad
-	\faEnvelope~ \href{mailto:henri.branken777@gmail.com}{\textbf{henri.branken777@gmail.com}}\\
-	\faGithub~ \href{https://github.com/HenriBranken}{\textbf{GitHub}}\quad
-	\faLinkedin~ \href{https://www.linkedin.com/in/henri-branken-1423a2153/}{\textbf{LinkedIn}}
+	{\Huge\textbf{\href{https://henribranken.github.io/MyCV/}{\faHandPointer~ Henri Branken}}}\\[0.5cm]
 \end{center}
-	
-\section*{Overview}
-I hold a Master’s Degree in Space Physics (Cum Laude) and have a strong background in mathematical analysis, modeling, and problem-solving. I transitioned into Data Science and Full-Stack Web Development through professional experience and extensive online learning. My skills include Python, SQL, MERN Stack, Power BI, and data science methodologies.
+\begin{minipage}{0.7\textwidth}
+	% === Contact Information in a Styled Box ===
+	\begin{tcolorbox}[
+		colback=gray!10, % Light gray background
+		colframe=teal,   % Teal border
+		sharp corners=south, % Rounded top, flat bottom
+		boxrule=1pt, % Border thickness
+		width=0.8\textwidth,
+		left=10pt, right=10pt, % Padding inside the box
+		]
+		\begin{tabularx}{\textwidth}{c X}
+			\faHome & Potchefstroom (2531) \\[0.2cm]
+			\faEnvelope & \href{mailto:henri.branken777@gmail.com}{\textbf{henri.branken777@gmail.com}} \\[0.2cm]
+			\faPhone & \textbf{+27 (0) 82 785 5983} \\[0.2cm]
+			\faGithub & \href{https://github.com/HenriBranken}{\textbf{GitHub}} \\[0.2cm]
+			\faLinkedin & \href{https://www.linkedin.com/in/henri-branken-1423a2153/}{\textbf{LinkedIn}}
+		\end{tabularx}
+	\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}{0.3\textwidth}
+	\begin{tikzpicture}
+		% Shadow for depth
+		\shade[ball color=black!30, opacity=0.4] (0.2,-0.2) circle (2.3cm);
+		
+		% Circular clip for the image
+		\clip (0,0) circle (2.3cm);
+		\node[anchor=center] at (0,0) {\includegraphics[width=4.6cm]{cello_11a}};
+	\end{tikzpicture}
+\end{minipage}
 
+\section*{Overview}
+I hold a Master's Degree in Space Physics (Cum Laude), which has equipped me with strong research capabilities and proficiency in mathematical analysis and modeling. Transitioning from academia, I gained approximately 3.5 years of experience as a Data Scientist at Matogen Applied Insights. There, I developed solutions such as a Portfolio Performance Monitor and Credit Loss Model for a telecommunications company, a PowerBI dashboard for monitoring agricultural nutrient distributions, and an AI model to predict grape harvesting dates.
+
+To broaden my skill set, I completed a HyperionDev Bootcamp, mastering programming languages including HTML, CSS, JavaScript, the MERN stack, and Java. This experience enhanced my understanding of full-stack web development and effective database management. Upon completion, I served as a Coding Mentor from July 2024 to January 2025.
+
+In summary, I possess a strong scientific background, a deep interest in programming, and a naturally curious nature. While I can navigate Windows environments, I prefer working with Linux systems.
 \section*{Languages}
 \begin{itemize}
 	\item Afrikaans: Mother Tongue
@@ -70,8 +92,10 @@ I hold a Master’s Degree in Space Physics (Cum Laude) and have a strong backgr
 \begin{tabularx}{\textwidth}{r l X}
 	\textbf{2024/07--2025/03} & \multicolumn{2}{| l}{\textbf{\href{https://www.hyperiondev.com/}{HyperionDev}} Code Reviewer \& Student Mentor} \\
 	& \multicolumn{1}{| l}{\textbullet} & As a Coding Mentor, I evaluated students' coding submissions for tasks and provided constructive feedback to enhance the quality, efficiency, and styling of their code. Additionally, I conducted live sessions to provide personalized guidance, helping students effectively tackle specific tasks and develop their programming skills. \\
-	& \multicolumn{1}{| l}{\textbullet} & Acting as a SME to refactor task contents for course syllabi. \\
-	& \multicolumn{1}{| l}{\textbullet} & Conducting an onboarding session for newly-enrolled students on the \href{https://livestorm.co/}{\textbf{LiveStorm}} platform. \\
+	& \multicolumn{1}{| l}{\textbullet} & Acting as a SME to refactor \href{https://github.com/HenriBranken/AcademicPortfolio/blob/main/06-010-1\_React\%20\textendash\%20Testing\%20a\%20React\%20App.pdf}{\textbf{task contents}} for course syllabi.\\
+	& \multicolumn{1}{|l}{\textbullet} & Conducting an \href{https://github.com/HenriBranken/AcademicPortfolio/blob/main/Academic\%20Onboarding\%20Session.pdf}{\textbf{onboarding session}} for newly-enrolled students on the \href{https://livestorm.co/}{\textbf{LiveStorm}} platform. \\
+	& \multicolumn{1}{|l}{\textbullet} & Please see my full Academic Portfolio \href{https://github.com/HenriBranken/AcademicPortfolio?tab=readme-ov-file\#academic-portfolio}{\textbf{here}}. \\
+	
 	& & \\
 	
 	\textbf{2023/01--2023/09} & \multicolumn{1}{| l}{\textbullet} & 
@@ -129,50 +153,62 @@ I hold a Master’s Degree in Space Physics (Cum Laude) and have a strong backgr
 \end{tabularx}
 
 \begin{center}
-	\begin{tikzpicture}
-		\path[mindmap,grow cyclic, 
-		every node/.style={concept, align=flush center},
-		level 1/.append style={level distance=6cm, sibling angle=90, concept color=blue!20},
-		level 2/.append style={level distance=3cm, sibling angle=45, concept color=red!20}]
-		node[concept color=red!20]{Henri's Skills}
-		child {node {Full-Stack \\ Web Dev}
-			child {node {PHP}}
-			child {node {Java}}
-			child {node {jQuery}}
-			child {node {MERN}}
-			child {node {HTML, CSS, \\ JavaScript}}
-		}
-		child {node {Data Science}
-			child {node {EDA, Data Wrangling}}
-			child {node {PowerBI, Tableau}}
-			child {node {Linux, BASH}}
-			child {node {Git CLI, GitHub}}
-			child {node {Pandas, NumPy, SciPy}}
-			child {node {DataBricks, \\ SnowFlake, SQL, PySpark}}
-			child {node {Python, \\ Jupyter Notebook}}
-		}
-		child  {node {Research}
-			child {node {\LaTeX}}
-			child {node {TiKZ}}
-			child {node {Maths}}
-			child {node {Physics, Astrophysics}}
-			child {node {LibreOffice Suite}}
-			child {node {ChatGPT}}
-		}
-		child  {node {Teaching}
-			child {node {Qualify \\ Level 5 \\ Diploma}}
-			child {node {Teaching \\ Business \\ English}}
-			child {node {Code Reviewer}}
-			child {node {Coding Mentor}}
-		};	
-	\end{tikzpicture}
+\tikz[mindmap, text=white, grow cyclic, concept color=burnt, font=\Large\bfseries,
+root concept/.append style={
+},
+level 1 concept/.append style={
+	sibling angle=90,
+	level distance=6cm,
+	every child/.style={concept color=teal, font=\bfseries}
+},
+level 2 concept/.append style={
+	sibling angle=45,
+	level distance=3cm,
+	every child/.style={concept color=teal!25, text=black}
+}]
+\node [concept] {Henri's Skills}
+child {node [concept] {Full-Stack \\ Web Dev}
+	child {node [concept] {PHP}}
+	child {node [concept] {Java}}
+	child {node [concept] {jQuery}}
+	child {node [concept] {MERN}}
+	child {node [concept] {HTML, CSS, \\ JavaScript}}
+}
+child {node [concept] {Data Science}
+	child {node [concept] {EDA, Data Wrangling}}
+	child {node [concept] {PowerBI, Tableau}}
+	child {node [concept] {Linux, BASH}}
+	child {node [concept] {Git CLI, GitHub}}
+	child {node [concept] {Pandas, NumPy, SciPy}}
+	child {node [concept] {DataBricks, \\ SnowFlake, SQL, PySpark}}
+	child {node [concept] {Python, \\ Jupyter Notebook}}
+}
+child {node [concept] {Research}
+	child {node [concept] {\LaTeX}}
+	child {node [concept] {TiKZ}}
+	child {node [concept] {Maths}}
+	child {node [concept] {Physics, Astrophysics}}
+	child {node [concept] {LibreOffice Suite}}
+	child {node [concept] {ChatGPT}}
+}
+child {node [concept] {Teaching}
+	child {node [concept] {Qualify \\ Level 5 \\ Diploma}}
+	child {node [concept] {Teaching \\ Business \\ English}}
+	child {node [concept] {Code Reviewer}}
+	child {node [concept] {Coding Mentor}}
+};
 \end{center}
 
 \section*{References}
-\begin{itemize}
-	\item Seraaj De Villiers, HyperionDev, \href{mailto:seraajd@hyperiondev.com}{\textbf{seraajd@hyperiondev.com}}
-	\item Prof. Christo Venter, North-West University, \href{mailto:christo.venter@nwu.ac.za}{\textbf{Christo.Venter@nwu.ac.za}}
-	\item Mr. Jacobus Eksteen, CEO, Matogen Applied Insights, \href{mailto:jacobus.eksteen@ai.matogen.com}{\textbf{jacobus.eksteen@ai.matogen.com}}
-\end{itemize}
+	\begin{tabularx}{\textwidth}{l X}
+	\textbf{Seraaj De Villiers} & HyperionDev \\
+	& \faEnvelope \quad \href{mailto:seraajd@hyperiondev.com}{\textbf{seraajd@hyperiondev.com}} \\[0.2cm]
+	
+	\textbf{Prof. Christo Venter} & North-West University \\
+	& \faEnvelope \quad \href{mailto:christo.venter@nwu.ac.za}{\textbf{christo.venter@nwu.ac.za}} \\[0.2cm]
+	
+	\textbf{Mr. Jacobus Eksteen} & CEO, Matogen Applied Insights \\
+	& \faEnvelope \quad \href{mailto:jacobus.eksteen@ai.matogen.com}{\textbf{jacobus.eksteen@ai.matogen.com}} \\
+\end{tabularx}
 	
 \end{document}
