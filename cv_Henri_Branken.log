@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.6)  11 FEB 2025 17:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.6)  11 FEB 2025 17:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -798,14 +798,14 @@ LaTeX Font Info:    ... okay on input line 47.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
-* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* v-part:(T,H,B)=(28.45274pt, 759.6886pt, 56.9055pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=483.69687pt
-* \textheight=731.23584pt
+* \textheight=759.6886pt
 * \oddsidemargin=-15.36449pt
 * \evensidemargin=-15.36449pt
-* \topmargin=-52.36449pt
+* \topmargin=-80.81725pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -908,31 +908,53 @@ LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/m/sc' will be
 (Font)              scaled to size 10.0pt on input line 106.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/b/sc' will be
 (Font)              scaled to size 10.0pt on input line 106.
-)
-Runaway argument?
-{r l X} \textbf {2024/07--2025/03} & \multicolumn {2}{| l}{\textbf {\href \ETC.
-! File ended while scanning use of \TX@get@body.
-<inserted text> 
-                \par 
-<*> cv_Henri_Branken.tex
-                        
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
+ [1
 
-! Emergency stop.
-<*> cv_Henri_Branken.tex
-                        
-*** (job aborted, no legal \end found)
+{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2024/
+texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{c:/texlive/2024/texmf-dis
+t/fonts/enc/dvips/ebgaramond/ebg_4a6c3c.enc}{c:/texlive/2024/texmf-dist/fonts/e
+nc/dvips/ebgaramond/ebg_qn2lct.enc}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/
+fontawesome5/fa5free2.enc}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/fontaweso
+me5/fa5brands0.enc}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/ebgaramond/ebg_y
+od6vr.enc} <./cello_11a.jpg>] [2{c:/texlive/2024/texmf-dist/fonts/enc/dvips/ebg
+aramond/ebg_ne3tkd.enc}]
+LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 223.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 223.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 223.
+LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/m/n' will be
+(Font)              scaled to size 6.0pt on input line 223.
 
- 
+
+[3] (./cv_Henri_Branken.aux)
+ ***********
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+ ***********
+Package rerunfilecheck Info: File `cv_Henri_Branken.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+ ) 
 Here is how much of TeX's memory you used:
- 27589 strings out of 473201
- 552901 string characters out of 5720300
- 897073 words of memory out of 5000000
- 50389 multiletter control sequences out of 15000+600000
- 588801 words of font info for 65 fonts, out of 8000000 for 9000
+ 27962 strings out of 473201
+ 561787 string characters out of 5720300
+ 977273 words of memory out of 5000000
+ 50731 multiletter control sequences out of 15000+600000
+ 605784 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,12n,107p,1205b,685s stack positions out of 10000i,1000n,20000p,200000b,200000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 102i,12n,107p,1205b,1313s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2024/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Bold.pfb
+><c:/texlive/2024/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-BoldItali
+c.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Ital
+ic.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Reg
+ular.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/fontawesome5/FontAwesom
+e5Brands-Regular.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/fontawesome
+5/FontAwesome5Free-Solid.pfb>
+Output written on cv_Henri_Branken.pdf (3 pages, 5334429 bytes).
+PDF statistics:
+ 859 PDF objects out of 1000 (max. 8388607)
+ 118 compressed objects within 2 object streams
+ 7 named destinations out of 1000 (max. 500000)
+ 132 words of extra memory for PDF output out of 10000 (max. 10000000)
+
