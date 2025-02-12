@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.6)  11 FEB 2025 17:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.6)  12 FEB 2025 17:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -685,35 +685,6 @@ LaTeX Info: Redefining \oldstylenums on input line 163.
 LaTeX Info: Redefining \textin on input line 167.
 LaTeX Info: Redefining \textsw on input line 173.
 )
-(c:/texlive/2024/texmf-dist/tex/generic/soul/soul.sty
-Package: soul 2023-06-14 v3.1 Permit use of UTF-8 characters in soul (HO)
-
-(c:/texlive/2024/texmf-dist/tex/generic/soul/soul-ori.sty
-Package: soul-ori 2023-06-14 v3.1 letterspacing/underlining (mf)
-\SOUL@word=\toks41
-\SOUL@lasttoken=\toks42
-\SOUL@syllable=\toks43
-\SOUL@cmds=\toks44
-\SOUL@buffer=\toks45
-\SOUL@token=\toks46
-\SOUL@syllgoal=\dimen277
-\SOUL@syllwidth=\dimen278
-\SOUL@charkern=\dimen279
-\SOUL@hyphkern=\dimen280
-\SOUL@dimen=\dimen281
-\SOUL@dimeni=\dimen282
-\SOUL@minus=\count319
-\SOUL@comma=\count320
-\SOUL@apo=\count321
-\SOUL@grave=\count322
-\SOUL@spaceskip=\skip61
-\SOUL@ttwidth=\dimen283
-\SOUL@uldp=\dimen284
-\SOUL@ulht=\dimen285
-)
-(c:/texlive/2024/texmf-dist/tex/generic/etexcmds/etexcmds.sty
-Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
-))
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 brarymindmap.code.tex
 File: tikzlibrarymindmap.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -726,14 +697,14 @@ File: tikzlibrarytrees.code.tex 2023-01-15 v3.1.10 (3.1.10)
 brarydecorations.code.tex
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.t
 ex
-\pgfdecoratedcompleteddistance=\dimen286
-\pgfdecoratedremainingdistance=\dimen287
-\pgfdecoratedinputsegmentcompleteddistance=\dimen288
-\pgfdecoratedinputsegmentremainingdistance=\dimen289
-\pgf@decorate@distancetomove=\dimen290
-\pgf@decorate@repeatstate=\count323
-\pgfdecorationsegmentamplitude=\dimen291
-\pgfdecorationsegmentlength=\dimen292
+\pgfdecoratedcompleteddistance=\dimen277
+\pgfdecoratedremainingdistance=\dimen278
+\pgfdecoratedinputsegmentcompleteddistance=\dimen279
+\pgfdecoratedinputsegmentremainingdistance=\dimen280
+\pgf@decorate@distancetomove=\dimen281
+\pgf@decorate@repeatstate=\count319
+\pgfdecorationsegmentamplitude=\dimen282
+\pgfdecorationsegmentlength=\dimen283
 )
 \tikz@lib@dec@box=\box82
 ))
@@ -757,37 +728,37 @@ File: tikzlibraryshadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ex
 File: pgflibraryshadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))
-Package hyperref Info: Option `colorlinks' set `true' on input line 45.
+Package hyperref Info: Option `colorlinks' set `true' on input line 44.
 LaTeX Font Info:    Trying to load font information for OT1+EBGaramond-OsF on i
-nput line 47.
+nput line 46.
  (c:/texlive/2024/texmf-dist/tex/latex/ebgaramond/OT1EBGaramond-OsF.fd
 File: OT1EBGaramond-OsF.fd 2023/03/19 (autoinst) Font definitions for OT1/EBGar
 amond-OsF.
 )
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 47.
+(Font)              scaled to size 10.0pt on input line 46.
 
 (./cv_Henri_Branken.aux)
 \openout1 = `cv_Henri_Branken.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -823,7 +794,7 @@ LaTeX Font Info:    ... okay on input line 47.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 47.
+Package hyperref Info: Link coloring ON on input line 46.
 (./cv_Henri_Branken.out) (./cv_Henri_Branken.out)
 \@outlinefile=\write4
 \openout4 = `cv_Henri_Branken.out'.
@@ -831,17 +802,17 @@ Package hyperref Info: Link coloring ON on input line 47.
 
 (c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count324
-\scratchdimen=\dimen293
+\scratchcounter=\count320
+\scratchdimen=\dimen284
 \scratchbox=\box83
-\nofMPsegments=\count325
-\nofMParguments=\count326
-\everyMPshowfont=\toks47
-\MPscratchCnt=\count327
-\MPscratchDim=\dimen294
-\MPnumerator=\count328
-\makeMPintoPDFobject=\count329
-\everyMPtoPDFconversion=\toks48
+\nofMPsegments=\count321
+\nofMParguments=\count322
+\everyMPshowfont=\toks41
+\MPscratchCnt=\count323
+\MPscratchDim=\dimen285
+\MPnumerator=\count324
+\makeMPintoPDFobject=\count325
+\everyMPtoPDFconversion=\toks42
 ) (c:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -851,18 +822,18 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@mv@tabular=\count330
-\c@mv@boldtabular=\count331
+\c@mv@tabular=\count326
+\c@mv@boldtabular=\count327
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/m/n' will be
-(Font)              scaled to size 24.88pt on input line 49.
+(Font)              scaled to size 24.88pt on input line 48.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/b/n' will be
-(Font)              scaled to size 24.88pt on input line 49.
+(Font)              scaled to size 24.88pt on input line 48.
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
-nput line 49.
+nput line 48.
 
 (c:/texlive/2024/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd)
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/b/sc' will be
-(Font)              scaled to size 24.88pt on input line 49.
+(Font)              scaled to size 24.88pt on input line 48.
 
 (c:/texlive/2024/texmf-dist/tex/latex/lm/omllmm.fd)
 (c:/texlive/2024/texmf-dist/tex/latex/lm/omslmsy.fd)
@@ -872,43 +843,50 @@ LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/b/sc' will be
 <cello_11a.jpg, id=43, 3468.96pt x 5203.44pt>
 File: cello_11a.jpg Graphic file (type jpg)
 <use cello_11a.jpg>
-Package pdftex.def Info: cello_11a.jpg  used on input line 78.
+Package pdftex.def Info: cello_11a.jpg  used on input line 77.
 (pdftex.def)             Requested size: 130.88284pt x 196.27185pt.
 
-Overfull \hbox (1.33298pt too wide) in paragraph at lines 51--81
+Overfull \hbox (1.33298pt too wide) in paragraph at lines 50--80
 $[]$  $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--81
+Underfull \hbox (badness 10000) in paragraph at lines 50--80
 
  []
 
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 94.
+(Font)              scaled to size 12.0pt on input line 93.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 94.
+(Font)              scaled to size 12.0pt on input line 93.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/b/sc' will be
-(Font)              scaled to size 12.0pt on input line 94.
+(Font)              scaled to size 12.0pt on input line 93.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 98.
+(Font)              scaled to size 14.4pt on input line 97.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/b/n' will be
-(Font)              scaled to size 14.4pt on input line 98.
+(Font)              scaled to size 14.4pt on input line 97.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/b/sc' will be
-(Font)              scaled to size 14.4pt on input line 98.
+(Font)              scaled to size 14.4pt on input line 97.
 LaTeX Font Info:    Trying to load font information for TS1+EBGaramond-OsF on i
-nput line 106.
+nput line 105.
 (c:/texlive/2024/texmf-dist/tex/latex/ebgaramond/TS1EBGaramond-OsF.fd
 File: TS1EBGaramond-OsF.fd 2023/03/19 (autoinst) Font definitions for TS1/EBGar
 amond-OsF.
 )
 LaTeX Font Info:    Font shape `TS1/EBGaramond-OsF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 106.
+(Font)              scaled to size 10.0pt on input line 105.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/m/sc' will be
-(Font)              scaled to size 10.0pt on input line 106.
+(Font)              scaled to size 10.0pt on input line 105.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/b/sc' will be
-(Font)              scaled to size 10.0pt on input line 106.
- [1
+(Font)              scaled to size 10.0pt on input line 105.
+
+Underfull \hbox (badness 1178) in paragraph at lines 187--187
+[]|\OT1/EBGaramond-OsF/m/n/10 Completed the \OT1/EBGaramond-OsF/b/n/10 ``Data S
+ci-ence with Python'' Track \OT1/EBGaramond-OsF/m/n/10 on Dat-a-Camp [][]\OT1/E
+BGaramond-OsF/b/n/10 (Cer-tifi-cate Num-ber
+ []
+
+[1
 
 {c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2024/
 texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{c:/texlive/2024/texmf-dis
@@ -919,16 +897,16 @@ me5/fa5brands0.enc}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/ebgaramond/ebg_y
 od6vr.enc} <./cello_11a.jpg>] [2{c:/texlive/2024/texmf-dist/fonts/enc/dvips/ebg
 aramond/ebg_ne3tkd.enc}]
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 223.
+(Font)              scaled to size 8.0pt on input line 233.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 223.
+(Font)              <8> on input line 233.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 223.
+(Font)              <6> on input line 233.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 223.
+(Font)              scaled to size 6.0pt on input line 233.
+ [3{c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
 
-
-[3] (./cv_Henri_Branken.aux)
+[4] (./cv_Henri_Branken.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -937,24 +915,25 @@ Package rerunfilecheck Info: File `cv_Henri_Branken.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27962 strings out of 473201
- 561787 string characters out of 5720300
- 977273 words of memory out of 5000000
- 50731 multiletter control sequences out of 15000+600000
- 605784 words of font info for 83 fonts, out of 8000000 for 9000
+ 27703 strings out of 473201
+ 557679 string characters out of 5720300
+ 975929 words of memory out of 5000000
+ 50482 multiletter control sequences out of 15000+600000
+ 605471 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,12n,107p,1205b,1313s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,14n,107p,1205b,1313s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Bold.pfb
 ><c:/texlive/2024/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-BoldItali
 c.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Ital
 ic.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Reg
 ular.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/fontawesome5/FontAwesom
 e5Brands-Regular.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/fontawesome
-5/FontAwesome5Free-Solid.pfb>
-Output written on cv_Henri_Branken.pdf (3 pages, 5334429 bytes).
+5/FontAwesome5Free-Solid.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/
+lmsy10.pfb>
+Output written on cv_Henri_Branken.pdf (4 pages, 5338910 bytes).
 PDF statistics:
- 859 PDF objects out of 1000 (max. 8388607)
- 118 compressed objects within 2 object streams
- 7 named destinations out of 1000 (max. 500000)
+ 928 PDF objects out of 1000 (max. 8388607)
+ 126 compressed objects within 2 object streams
+ 8 named destinations out of 1000 (max. 500000)
  132 words of extra memory for PDF output out of 10000 (max. 10000000)
 
