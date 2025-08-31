@@ -12,31 +12,6 @@
 \usepackage{tcolorbox}
 \usepackage{ebgaramond}
 \usepackage{xcolor}
-\usetikzlibrary{calc,decorations.pathmorphing}
-
-% Option A: vertical Euler identity (simple, classy)
-\newcommand{\EulerRail}{%
-	\begin{tikzpicture}[baseline]
-		\node[rotate=90, text=gray!60, inner sep=0pt] {$\displaystyle e^{i\pi}+1=0$};
-	\end{tikzpicture}%
-}
-
-% Option B: tiny sine-wave sparkline
-\newcommand{\SineRail}{%
-	\begin{tikzpicture}[baseline,x=0.18cm,y=0.18cm]
-		\begin{scope}[rotate=90]
-			\draw[gray!60, line width=0.4pt, domain=0:6.283, samples=80]
-			plot (\x, {0.8*sin(\x r)});
-		\end{scope}
-	\end{tikzpicture}%
-}
-
-% Option C: zeta/basel identity
-\newcommand{\BaselRail}{%
-	\begin{tikzpicture}[baseline]
-		\node[rotate=90, text=gray!60, inner sep=0pt] {$\displaystyle \sum_{n=1}^{\infty}\!\frac{1}{n^2}=\frac{\pi^2}{6}$};
-	\end{tikzpicture}%
-}
 
 % Tikz Libraries
 \usetikzlibrary{mindmap,shadows,shadings}
@@ -58,8 +33,6 @@
 \renewcommand{\baselinestretch}{1.1}
 \renewcommand{\labelitemi}{\textbullet}
 \newcommand{\refnum}[2]{\href{#1}{\textbf{[#2]}}}
-\newcommand{\sep}{\;\;}
-\newcommand{\module}[2]{\makebox[3.5cm][l]{\textbf{#1}} #2}
 
 \hypersetup{
 	colorlinks=true,
@@ -83,61 +56,46 @@
 	sharp corners=northwest
 	]
 	\begin{center}
-		\faHome~ \textbf{Potchefstroom (2531), South Africa} \quad \faEnvelope~ \href{mailto:henri.branken777@gmail.com}{\textbf{henri.branken777@gmail.com}} \quad\\ \faPhone~ \textbf{+27 (0) 82 785 5983} \quad \faGithub~ \href{https://github.com/HenriBranken}{\textbf{GitHub}}
+		\faHome~ \textbf{Potchefstroom (2531), South Africa} --- Open to Remote Work \quad \faEnvelope~ \href{mailto:henri.branken777@gmail.com}{\textbf{henri.branken777@gmail.com}} \quad\\ \faPhone~ \textbf{+27 (0) 82 785 5983} \quad \faGithub~ \href{https://github.com/HenriBranken}{\textbf{GitHub}} \quad
+		\faLinkedin~ \href{https://www.linkedin.com/in/henri-branken-1423a2153/}{\textbf{LinkedIn}}
 	\end{center}
 \end{tcolorbox}
 
+
 % === Career Objective Box ===
 \begin{tcolorbox}[
-	colback=burntshade,
-	colframe=burnt,
-	boxrule=1pt,
+	colback=burntshade,    % Light teal background
+	colframe=burnt,     % Burnt orange border
+	boxrule=1pt,        % Border thickness
 	sharp corners=northwest,
 	rounded corners=southwest,
-	coltitle=white,
-	fonttitle=\large\bfseries\scshape,
-	title=Objective,
-	width=\textwidth,
-	left=10pt, right=10pt, top=5pt, bottom=5pt
+	coltitle=white,     % White title color
+	fonttitle=\large\bfseries\scshape,  % Bold Small Caps title
+	title=Career Objective,
+	width=\textwidth,   % Full width
+	left=10pt, right=10pt, top=5pt, bottom=5pt  % Padding inside the box
 	]
-	Applying for a permanent IT Lecturer position at Eduvos, Potchefstroom Campus.
+	Seeking opportunities in \textbf{Tutoring}, \textbf{Mentoring} or \textbf{Lecturing} to help students develop their skills.
 \end{tcolorbox}
 
-% \quad \faLinkedin~ \href{https://www.linkedin.com/in/henri-branken-1423a2153/}{\textbf{LinkedIn}}
-
 \section*{Overview}
-I hold an MSc in Space Physics (\textit{cum laude}), which has equipped me with strong research training and proficiency in mathematical analysis and modeling. I subsequently spent approximately 3.5 years as a Data Scientist at Matogen Applied Insights, where I delivered a portfolio performance monitor and a credit-loss model for a telecommunications client, a Power BI dashboard for monitoring agricultural nutrient distributions, and a model to predict grape harvest dates.
+I hold a Master's Degree in Space Physics (Cum Laude), which has equipped me with strong research capabilities and proficiency in mathematical analysis and modeling. Transitioning from academia, I gained approximately 3.5 years of experience as a Data Scientist at Matogen Applied Insights. There, I developed solutions such as a Portfolio Performance Monitor and Credit Loss Model for a telecommunications company, a PowerBI dashboard for monitoring agricultural nutrient distributions, and an AI model to predict grape harvesting dates.
 
-To broaden my software-engineering skill set, I completed the HyperionDev bootcamp, working with HTML, CSS, JavaScript, the MERN stack, and Java—strengthening my full-stack development and database management capabilities. After completion, I served as a HyperionDev Coding Mentor (July~2024--March~2025). I currently lecture IT modules at Eduvos (Potchefstroom Campus). Teaching keeps me in a cycle of continual learning and curriculum refinement, ensuring I remain current with emerging tools and practices.
+To broaden my skillset, I completed a HyperionDev Bootcamp, mastering several programming languages including HTML, CSS, JavaScript, the MERN stack, and Java. This experience enhanced my understanding of full-stack web development and effective database management. Upon completion, I served as a Coding Mentor from July 2024 to the present time.
 
-My data-science background has made me comfortable with back-end systems and data-driven applications, and I value full-stack development for its balance of analytical rigor and creative problem-solving. While fluent in Windows environments, I also work extensively in open-source ecosystems, particularly Linux~\faLinux{\vspace*{2pt}}
-
+In summary, I have a strong scientific background, a deep interest in programming, and a naturally curious nature. While I can navigate Windows environments, I prefer working with Linux systems {\faLinux}{\vspace*{2pt}}
 
 \begin{center}	
-	{\fontsize{11}{10}\selectfont\textcolor{burnt}{\faHandPointRight} Here is a \href{https://coalition-fed.onrender.com/}{\textbf{\underline{FrontEnd Demo}}} that showcases my skills in ReactJS, Express \& SCSS \href{https://github.com/HenriBranken/coalition-fed}{\textcolor{teal}{\faGithub}}}.\\Also check out my \href{https://expense-tracker-five-sepia.vercel.app/}{\textbf{\underline{Expense Tracking App}}}, which is a fullstack app I built using the SvelteKit Framework \href{https://github.com/HenriBranken/expense-tracker}{\textcolor{teal}{\faGithub}}
+	{\fontsize{11}{10}\selectfont\textcolor{burnt}{\faHandPointRight} Here is a \href{https://coalition-fed.onrender.com/}{\textbf{\underline{FrontEnd Demo}}} that showcases my skills in ReactJS, Express \& SCSS. \textcolor{burnt}{\faHandPointLeft}}
+\end{center}
+
+\begin{center}	
+{\fontsize{11}{10}\selectfont\textcolor{burnt}{\faHandPointRight} Check out my \href{https://expense-tracker-five-sepia.vercel.app/}{\textbf{\underline{Expense Tracking App}}}, which is an app I built using a JavaScript Framework \textcolor{burnt}{\faHandPointLeft}}
 \end{center}
 
 \section*{Experience}
 \renewcommand{\arraystretch}{1.1}
 \begin{tabularx}{\textwidth}{r l X}
-	    \textbf{2025/04--Current} & 
-	\multicolumn{2}{| l}{\textbf{\href{https://www.eduvos.com/}{\textsc{Eduvos}}} IT Lecturer (FTC), Potchefstroom Campus, 
-		\href{mailto:henri.branken@eduvos.com}{\textbf{henri.branken@eduvos.com}}} \\
-	
-	& \multicolumn{1}{| l}{\textbullet} & \module{ITTNA3-B22/33}{4th Industrial Revolution} \\
-	& \multicolumn{1}{| l}{\textbullet} & \module{ITMRA2-B22}{Mathematics for Robotics} \\
-	& \multicolumn{1}{| l}{\textbullet} & \module{CODAA2-B22}{PowerBI for Data Analytics} \\
-	& \multicolumn{1}{| l}{\textbullet} & \module{ITISA1-B33}{Introduction to Information Systems} \\
-	& \multicolumn{1}{| l}{\textbullet} & \module{ITSCA2-B34}{Scientific Computing in Python} \\
-	& \multicolumn{1}{| l}{\textbullet} & \module{ITMCA1-22}{Maths for Computing --- Extra Classes} \\[3pt]
-	
-	& \multicolumn{2}{| l}{\underline{\textsc{\textbf{Upcoming Block 4 Modules}}}} \\
-	& \multicolumn{1}{| l}{\textbullet} & \module{ITMTA1-B44}{Mathematics 1A (Differentiation)} \\
-	& \multicolumn{1}{| l}{\textbullet} & \module{ITDPA2-B44}{Data Structures and Algorithms in Python} \\
-	& \multicolumn{1}{| l}{\textbullet} & \module{ITMLA2-B44}{Machine Learning Algorithms} \\
-	& \multicolumn{1}{| l}{\textbullet} & \module{ITSCA2-B34}{Scientific Computing in Python (Cntd. from Block 3)} \\
-	& & \\[-5pt]
-	
 	\textbf{2024/07--2025/03} & \multicolumn{2}{| l}{\textbf{\href{https://www.hyperiondev.com/}{HyperionDev}} Code Reviewer \& Student Mentor.} \\
 	& \multicolumn{1}{| l}{\textbullet} & As a Coding Mentor, I evaluated students' coding submissions for tasks and provided constructive feedback to enhance the quality, efficiency, and styling of their code. Additionally, I conducted live sessions to provide personalised guidance, helping students effectively tackle specific tasks and develop their programming skills. \\
 	& \multicolumn{1}{| l}{\textbullet} & Acted as an SME to refactor \href{https://github.com/HenriBranken/AcademicPortfolio/blob/main/Testing\_a\_React\_App.pdf}{\textbf{Task Contents}} for the course syllabus.\\
@@ -211,20 +169,24 @@ A list of references can be provided upon request.
 	& & \\[-5pt]
 	
 	\textbf{2009} & \multicolumn{2}{|X}{\textbf{Matriculated with 8 distinctions from St. Andrew’s Private School, Welkom}} \\
-	& \multicolumn{2}{|X}{\href{https://github.com/HenriBranken/Henri\_Branken\_Certification/blob/master/secondary/National\_Senior\_Certificate.pdf}{\textbf{National Senior Certificate}} $\vert$ \href{https://github.com/HenriBranken/Henri\_Branken\_Certification/blob/master/secondary/IEB\_record.pdf}{\textbf{IEB Statement of Results}} \;\;\textsc{Avg. Score}: \textbf{89\%}}\\
+	& \multicolumn{2}{| X}{\textsc{Avg. Score}: \textbf{89\%}} \\
+	& \multicolumn{2}{|X}{\href{https://github.com/HenriBranken/Henri\_Branken\_Certification/blob/master/secondary/National\_Senior\_Certificate.pdf}{\textbf{National Senior Certificate}} $\vert$ \href{https://github.com/HenriBranken/Henri\_Branken\_Certification/blob/master/secondary/IEB\_record.pdf}{\textbf{IEB Statement of Results}}}\\
 \end{tabularx}
 
 \section*{Languages}
-\textsc{\textbf{English}}: Fluent, Level 5 TEFL Certification. \textsc{\textbf{Afrikaans}}: Mother Tongue
+\begin{itemize}
+\item \textsc{\textbf{English}}: Fluent, Level 5 TEFL Certification
+\item \textsc{\textbf{Afrikaans}}: Mother Tongue
+\end{itemize}
 
 \begin{center}
 \tikz[mindmap, text=white, grow cyclic, concept color=burnt, font=\Large\bfseries,
 root concept/.append style={
-	minimum size=2cm
+	minimum size=2.5cm
 },
 level 1 concept/.append style={
 	sibling angle=90,
-	level distance=4.5cm,
+	level distance=5cm,
 	every child/.style={concept color=teal, font=\bfseries}
 },
 level 2 concept/.append style={
@@ -263,24 +225,5 @@ child {node [concept] {Teaching}
 	child {node [concept, minimum size=2.2cm] {HyperionDev \\ Coding Mentor}}
 };
 \end{center}
-
-\section*{Testimonial}
-
-% ---- CV quote block (with math embellishment) ----
-\noindent
-\begin{tabular}{@{}p{2pt}p{0.90\textwidth}p{0.08\textwidth}@{}}
-	\vrule width 2pt &
-	\begin{minipage}{\dimexpr0.90\textwidth\relax}
-		\itshape
-		``I normally enjoy maths, but the ITMRA module challenged me. Thanks to your hands-on assistance and lectures, I made it through successfully---your support made a real difference in my understanding and preparation.''
-		
-		\medskip
-		\raggedleft
-		--- \textsc{\href{mailto:CON-1078771-F9X8@vossie.net}{\textbf{Giolen Vengatsammy}}} \quad \textit{(July 2025)}
-	\end{minipage}
-	&
-	\centering \BaselRail % <- or \SineRail or \BaselRail
-\end{tabular}
-% ---- end CV quote block ----
 
 \end{document}

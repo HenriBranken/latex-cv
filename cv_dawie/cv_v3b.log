@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.6)  31 AUG 2025 16:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.6)  28 MAR 2025 12:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**cv_v3.tex
-(./cv_v3.tex
+**cv_v3b.tex
+(./cv_v3b.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (c:/texlive/2024/texmf-dist/tex/latex/base/article.cls
@@ -686,11 +686,13 @@ LaTeX Info: Redefining \textin on input line 167.
 LaTeX Info: Redefining \textsw on input line 173.
 )
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
-brarycalc.code.tex
-File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)
+brarymindmap.code.tex
+File: tikzlibrarymindmap.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
-brarydecorations.pathmorphing.code.tex
+brarytrees.code.tex
+File: tikzlibrarytrees.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 brarydecorations.code.tex
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.t
@@ -705,16 +707,6 @@ ex
 \pgfdecorationsegmentlength=\dimen283
 )
 \tikz@lib@dec@box=\box82
-)
-(c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydec
-orations.pathmorphing.code.tex))
-(c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
-brarymindmap.code.tex
-File: tikzlibrarymindmap.code.tex 2023-01-15 v3.1.10 (3.1.10)
-
-(c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
-brarytrees.code.tex
-File: tikzlibrarytrees.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 braryshadows.code.tex
@@ -736,37 +728,37 @@ File: tikzlibraryshadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ex
 File: pgflibraryshadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))
-Package hyperref Info: Option `colorlinks' set `true' on input line 70.
+Package hyperref Info: Option `colorlinks' set `true' on input line 43.
 LaTeX Font Info:    Trying to load font information for OT1+EBGaramond-OsF on i
-nput line 72.
+nput line 45.
  (c:/texlive/2024/texmf-dist/tex/latex/ebgaramond/OT1EBGaramond-OsF.fd
 File: OT1EBGaramond-OsF.fd 2023/03/19 (autoinst) Font definitions for OT1/EBGar
 amond-OsF.
 )
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 72.
+(Font)              scaled to size 10.0pt on input line 45.
 
-(./cv_v3.aux)
-\openout1 = `cv_v3.aux'.
+(./cv_v3b.aux)
+\openout1 = `cv_v3b.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -802,10 +794,10 @@ LaTeX Font Info:    ... okay on input line 72.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 72.
-(./cv_v3.out) (./cv_v3.out)
+Package hyperref Info: Link coloring ON on input line 45.
+(./cv_v3b.out) (./cv_v3b.out)
 \@outlinefile=\write4
-\openout4 = `cv_v3.out'.
+\openout4 = `cv_v3b.out'.
 
 
 (c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -833,82 +825,70 @@ e
 \c@mv@tabular=\count326
 \c@mv@boldtabular=\count327
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/m/n' will be
-(Font)              scaled to size 24.88pt on input line 74.
+(Font)              scaled to size 24.88pt on input line 47.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/b/n' will be
-(Font)              scaled to size 24.88pt on input line 74.
+(Font)              scaled to size 24.88pt on input line 47.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/b/sc' will be
-(Font)              scaled to size 24.88pt on input line 74.
+(Font)              scaled to size 24.88pt on input line 47.
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
-nput line 86.
+nput line 59.
 
 (c:/texlive/2024/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd)
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 86.
+(Font)              scaled to size 10.0pt on input line 59.
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
-nput line 86.
+nput line 59.
 
 (c:/texlive/2024/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd)
 LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on
- input line 86.
+ input line 59.
 
 (c:/texlive/2024/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <10> not 
 available
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
-n input line 86.
+n input line 59.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 102.
+(Font)              scaled to size 12.0pt on input line 77.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 102.
+(Font)              scaled to size 12.0pt on input line 77.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/b/sc' will be
-(Font)              scaled to size 12.0pt on input line 102.
+(Font)              scaled to size 12.0pt on input line 77.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 108.
+(Font)              scaled to size 14.4pt on input line 81.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/b/n' will be
-(Font)              scaled to size 14.4pt on input line 108.
+(Font)              scaled to size 14.4pt on input line 81.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/b/sc' will be
-(Font)              scaled to size 14.4pt on input line 108.
-LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 109.
+(Font)              scaled to size 14.4pt on input line 81.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/m/n' will be
-(Font)              scaled to size 11.0pt on input line 117.
+(Font)              scaled to size 11.0pt on input line 89.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/b/n' will be
-(Font)              scaled to size 11.0pt on input line 117.
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 117.
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-17.
+(Font)              scaled to size 11.0pt on input line 89.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 89.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 8
+9.
 
 (c:/texlive/2024/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-117.
+89.
 
 (c:/texlive/2024/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-117.
+89.
 
 (c:/texlive/2024/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <11> on input line 117.
+(Font)              <11> on input line 89.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.69997> on input line 117.
+(Font)              <7.69997> on input line 89.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5.5> on input line 117.
-LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <11> not 
-available
-(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
-n input line 117.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 117.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 117.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 117.
+(Font)              <5.5> on input line 89.
 
 (c:/texlive/2024/texmf-dist/tex/latex/ebgaramond/TS1EBGaramond-OsF.fd) [1
 
@@ -917,54 +897,44 @@ texmf-dist/fonts/enc/dvips/ebgaramond/ebg_4a6c3c.enc}{c:/texlive/2024/texmf-dis
 t/fonts/enc/dvips/fontawesome5/fa5free1.enc}{c:/texlive/2024/texmf-dist/fonts/e
 nc/dvips/ebgaramond/ebg_qn2lct.enc}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/
 fontawesome5/fa5free2.enc}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/fontaweso
-me5/fa5brands0.enc}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/ebgaramond/ebg_n
-e3tkd.enc}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/ebgaramond/ebg_yod6vr.enc
-}]
-Underfull \hbox (badness 1264) in paragraph at lines 215--215
+me5/fa5brands0.enc}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/ebgaramond/ebg_y
+od6vr.enc}]
+Underfull \hbox (badness 1264) in paragraph at lines 174--174
 []|\OT1/EBGaramond-OsF/m/n/10 Completed the \OT1/EBGaramond-OsF/b/n/10 ``Data S
 ci-ence with Python'' Track \OT1/EBGaramond-OsF/m/n/10 on Dat-a-Camp [][]\OT1/E
 BGaramond-OsF/b/n/10 (Cer-tifi-cate Num-ber
  []
 
-[2]
+
+
+[2{c:/texlive/2024/texmf-dist/fonts/enc/dvips/ebgaramond/ebg_ne3tkd.enc}{c:/tex
+live/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 264.
+(Font)              scaled to size 8.0pt on input line 226.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 264.
+(Font)              <8> on input line 226.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 264.
+(Font)              <6> on input line 226.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 264.
-LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/m/scit' will be
-(Font)              scaled to size 10.0pt on input line 279.
-LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/b/scit' will be
-(Font)              scaled to size 10.0pt on input line 279.
-
-Overfull \hbox (16.32397pt too wide) in paragraph at lines 270--285
-[] 
- []
+(Font)              scaled to size 6.0pt on input line 226.
 
 
-
-[3{c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/texlive/2024
-/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{c:/texlive/2024/texmf-dist/fonts/
-enc/dvips/lm/lm-mathit.enc}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-rm
-.enc}] (./cv_v3.aux)
+[3] (./cv_v3b.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-Package rerunfilecheck Info: File `cv_v3.out' has not changed.
+Package rerunfilecheck Info: File `cv_v3b.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27864 strings out of 473201
- 562350 string characters out of 5720300
- 971411 words of memory out of 5000000
- 50627 multiletter control sequences out of 15000+600000
- 621500 words of font info for 97 fonts, out of 8000000 for 9000
+ 27685 strings out of 473201
+ 556981 string characters out of 5720300
+ 955980 words of memory out of 5000000
+ 50464 multiletter control sequences out of 15000+600000
+ 619195 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,14n,107p,1247b,1317s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,12n,107p,1248b,1317s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Bold.pfb
 ><c:/texlive/2024/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-BoldItali
 c.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Ital
@@ -972,15 +942,11 @@ ic.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Reg
 ular.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/fontawesome5/FontAwesom
 e5Brands-Regular.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/fontawesome
 5/FontAwesome5Free-Solid.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/
-lmex10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><c:/tex
-live/2024/texmf-dist/fonts/type1/public/lm/lmmi7.pfb><c:/texlive/2024/texmf-dis
-t/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/publi
-c/lm/lmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/
-texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy7.pfb>
-Output written on cv_v3.pdf (3 pages, 233466 bytes).
+lmsy10.pfb>
+Output written on cv_v3b.pdf (3 pages, 172997 bytes).
 PDF statistics:
- 786 PDF objects out of 1000 (max. 8388607)
- 144 compressed objects within 2 object streams
+ 765 PDF objects out of 1000 (max. 8388607)
+ 117 compressed objects within 2 object streams
  6 named destinations out of 1000 (max. 500000)
  121 words of extra memory for PDF output out of 10000 (max. 10000000)
 
