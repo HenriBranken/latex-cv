@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.6)  24 APR 2026 17:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.6)  24 APR 2026 18:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -870,46 +870,10 @@ LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/b/sc' will be
 (Font)              scaled to size 14.4pt on input line 107.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/m/it' will be
 (Font)              scaled to size 10.0pt on input line 110.
-LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/m/n' will be
-(Font)              scaled to size 11.0pt on input line 116.
-LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/b/n' will be
-(Font)              scaled to size 11.0pt on input line 116.
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 116.
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-16.
 
-(c:/texlive/2024/texmf-dist/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-116.
-
-(c:/texlive/2024/texmf-dist/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-116.
-
-(c:/texlive/2024/texmf-dist/tex/latex/lm/omxlmex.fd
-File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <11> on input line 116.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.69997> on input line 116.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5.5> on input line 116.
-LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <11> not 
-available
-(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
-n input line 116.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 116.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 116.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 116.
-
+(c:/texlive/2024/texmf-dist/tex/latex/lm/omllmm.fd)
+(c:/texlive/2024/texmf-dist/tex/latex/lm/omslmsy.fd)
+(c:/texlive/2024/texmf-dist/tex/latex/lm/omxlmex.fd)
 (c:/texlive/2024/texmf-dist/tex/latex/ebgaramond/TS1EBGaramond-OsF.fd) [1
 
 {c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2024/
@@ -918,26 +882,25 @@ t/fonts/enc/dvips/fontawesome5/fa5free1.enc}{c:/texlive/2024/texmf-dist/fonts/e
 nc/dvips/ebgaramond/ebg_qn2lct.enc}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/
 fontawesome5/fa5free2.enc}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/fontaweso
 me5/fa5brands0.enc}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/ebgaramond/ebg_n
-e3tkd.enc}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/ebgaramond/ebg_yod6vr.enc
-}]
-Underfull \hbox (badness 1264) in paragraph at lines 205--205
+e3tkd.enc}]
+Underfull \hbox (badness 1264) in paragraph at lines 210--210
 []|\OT1/EBGaramond-OsF/m/n/10 Completed the \OT1/EBGaramond-OsF/b/n/10 ``Data S
 ci-ence with Python'' Track \OT1/EBGaramond-OsF/m/n/10 on Dat-a-Camp [][]\OT1/E
 BGaramond-OsF/b/n/10 (Cer-tifi-cate Num-ber
  []
 
-[2]
+[2{c:/texlive/2024/texmf-dist/fonts/enc/dvips/ebgaramond/ebg_yod6vr.enc}]
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 254.
+(Font)              scaled to size 8.0pt on input line 262.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 254.
+(Font)              <8> on input line 262.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 254.
+(Font)              <6> on input line 262.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 254.
+(Font)              scaled to size 6.0pt on input line 262.
 
 
-[3{c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}] (./cv_v3.aux)
+[3] (./cv_v3.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -946,11 +909,11 @@ Package rerunfilecheck Info: File `cv_v3.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27840 strings out of 473201
- 561795 string characters out of 5720300
- 963852 words of memory out of 5000000
- 50609 multiletter control sequences out of 15000+600000
- 619516 words of font info for 94 fonts, out of 8000000 for 9000
+ 27823 strings out of 473201
+ 561445 string characters out of 5720300
+ 968255 words of memory out of 5000000
+ 50593 multiletter control sequences out of 15000+600000
+ 605166 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,12n,107p,1194b,1317s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Bold.pfb
@@ -959,12 +922,11 @@ c.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Ital
 ic.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Reg
 ular.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/fontawesome5/FontAwesom
 e5Brands-Regular.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/fontawesome
-5/FontAwesome5Free-Solid.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/
-lmsy10.pfb>
-Output written on cv_v3.pdf (3 pages, 171096 bytes).
+5/FontAwesome5Free-Solid.pfb>
+Output written on cv_v3.pdf (3 pages, 166638 bytes).
 PDF statistics:
- 758 PDF objects out of 1000 (max. 8388607)
- 121 compressed objects within 2 object streams
- 6 named destinations out of 1000 (max. 500000)
+ 644 PDF objects out of 1000 (max. 8388607)
+ 117 compressed objects within 2 object streams
+ 8 named destinations out of 1000 (max. 500000)
  121 words of extra memory for PDF output out of 10000 (max. 10000000)
 
